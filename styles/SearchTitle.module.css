@@ -1,0 +1,17 @@
+.searchTitle {
+  width: var(--total-width);
+  border: 1px solid var(--color-medium-grey);
+  border-radius: 6px;
+  padding: var(--space-larger);
+  margin-bottom: var(--space-medium);
+}
+
+.title {
+  color: var(--color-light-grey);
+  margin-bottom: var(--space-small);
+}
+
+.subtitle {
+  font-weight: normal;
+  min-height: var(--space-larger);
+}

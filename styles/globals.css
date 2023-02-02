@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root {
+  /* colors */
+  --color-white: whitesmoke;
+  --color-blue: #6599ee;
+  --color-light-grey: #afbac6;
+  --color-medium-grey: #78838f;
+  --color-warm-grey: #424141;
+  --color-cold-grey: #2d333b;
+  --color-dark-grey: #22272e;
+  --color-black: black;
+  /* font-size */
+  --font-small: 12px;
+  --font-medium: 14px;
+  --font-large: 16px;
+  /* spacing */
+  --space-cero: 0px;
+  --space-extra-small: 5px;
+  --space-small: 10px;
+  --space-medium: 12px;
+  --space-large: 16px;
+  --space-larger: 20px;
+  --space-extra-larger: 25px;
+  --space-extra-extra-larger: 32px;
+  --total-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--color-dark-grey);
+  color: var(--color-medium-grey);
+  font-family: 'Noto Sans', sans-serif;
+}

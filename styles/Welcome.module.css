@@ -1,0 +1,29 @@
+.welcome {
+  width: var(--total-width);
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding-top: var(--space-larger);
+}
+
+.hi {
+  font-size: 100px;
+  color: var(--color-white);
+  margin-right: 25px;
+}
+
+@media (max-width: 700px) {
+  .welcome {
+    text-align: center;
+    justify-content: center;
+  }
+  .hi {
+    font-size: 80px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .text {
+    text-align: center;
+  }
+}
