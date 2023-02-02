@@ -1,4 +1,6 @@
-## Hello, welcome to my app!
+## GitHub Repository Searcher
+
+Hello, welcome to my app!
 
 This is a GitHub Repository Searcher created with Next.js, GitHub GraphQL and Apollo Client
 
